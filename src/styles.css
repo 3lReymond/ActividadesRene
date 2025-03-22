@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+.tarjeta {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }

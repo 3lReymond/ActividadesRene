@@ -1,0 +1,15 @@
+<h1 class="text-center">Two Way</h1>
+<div class="d-flex justify-content-center">
+    <div class="w-50">
+        <div class="mt-3">
+            <label for="inputTexto">Escribe algo:</label>
+            <input id="inputTexto" type="text" [(ngModel)]="saludo"/>
+        </div>
+        <div class="mt-3">
+            <div class="alert alert-success mt-4">
+                {{saludo}}
+            </div>
+            
+        </div>
+    </div>
+</div>
